@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+clear
+insmod code.ko
+rmmod code.ko

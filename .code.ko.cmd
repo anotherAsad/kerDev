@@ -1,0 +1,1 @@
+cmd_/home/asad/kerDev/code.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/asad/kerDev/code.ko /home/asad/kerDev/code.o /home/asad/kerDev/code.mod.o;  true
